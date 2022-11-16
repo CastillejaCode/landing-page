@@ -112,6 +112,7 @@ button {
     justify-content: space-evenly;
     padding: 1rem;
     gap: 1rem;
+    margin: 0 1rem;
 }
 
 .card {
@@ -119,12 +120,16 @@ button {
     flex-direction: column;
     align-items: center;
     gap: 1rem;
+    flex-wrap: wrap;
 }
 
 .card-img {
     overflow: hidden;
     width: 100%;
     height: auto;
+}
+
+.subtext {
 }
 
 .card > img {

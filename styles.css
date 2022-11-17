@@ -87,6 +87,7 @@ button {
     background: #3882f6;
     color: #f9faf8;
     box-shadow: none;
+    border-width: 1px;
     border-radius: 5px;
     cursor: pointer;
 }
@@ -163,3 +164,28 @@ button {
     margin-top: 1rem;
 }
 
+/* Section 4 */
+
+.section-4 {
+    padding: 4em;
+    display: flex;
+}
+
+.action {
+    background-color: #3882f6;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex: auto;
+    padding: 3rem 5rem;
+    border-radius: 1rem;
+}
+
+.action-text-big {
+    color: #f9faf8;
+    font-weight: bold;
+}
+
+.action-text-small {
+    color: #e5e7eb;
+}

@@ -189,3 +189,18 @@ button {
 .action-text-small {
     color: #e5e7eb;
 }
+
+/* footer */
+
+.footer {
+    background-color: #1F2937;
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.footer-text {
+    color: #f9faf8;
+}

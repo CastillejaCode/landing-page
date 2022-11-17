@@ -1,3 +1,11 @@
+:root {
+    --white: #f9faf8;
+    --white-2: #e5e7eb;
+    --navy: #1F2937;
+    --blue: #3882f6;
+    
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -7,14 +15,14 @@
 
 
 .section-1 {
-    background-color: #1F2937;
+    background-color: var(--navy);
     display: flex;
     flex-direction: column;
     padding: 2rem;
 }
 
 .header {
-    color: #f9faf8;
+    color: var(--white);
     display: flex;
     justify-content: space-between;
     padding: 1rem;
@@ -23,12 +31,12 @@
 
 .header-logo {
     font-size: 24px;
-    color: #f9faf8;
+    color: var(--white);
 }
 
 .header-link, .hero-small {
     font-size: 18px;
-    color: #e5e7eb;
+    color: var(--white-2);
 }
 
 .header-link {
@@ -55,7 +63,7 @@
 .hero-big {
     font-size: 48px;
     font-weight: extra-bold;
-    color: #f9faf8;
+    color: var(--white);
 }
 
 
@@ -68,9 +76,8 @@
 .hero-img > img {
     border-radius: 5%;
     margin-right: 1rem;
-    height: 100%;
-    flex: 1
 }
+
 
 li {
     list-style: none;
@@ -84,7 +91,7 @@ a {
 
 button {
     padding: .5rem 1rem;
-    background: #3882f6;
+    background: var(--blue);
     color: #f9faf8;
     box-shadow: none;
     border-width: 1px;
@@ -106,7 +113,7 @@ button {
     text-align: center;
     font-size: 36px;
     font-weight: extra-bold;
-    color: #1F2937;
+    color: var(--navy);
 }
 
 .cards {
@@ -135,7 +142,7 @@ button {
 }
 
 .card > img {
-    border: #3882f6;
+    border: var(--blue);
     border-radius: 5px;
     border-style: solid;
 }
@@ -143,7 +150,7 @@ button {
 /* Section 3 */
 
 .section-3 {
-    background-color: #e5e7eb;
+    background-color: var(--white-2);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -154,11 +161,11 @@ button {
 .quote {
     font-size: 36px;
     font-style: italic;
-    color: #1F2937;
+    color: var(--navy);
 }
 
 .quote-source {
-    color: #1F2937;
+    color: var(--navy);
     align-self: flex-end;
     font-size: 24px;
     margin-top: 1rem;
@@ -172,7 +179,7 @@ button {
 }
 
 .action {
-    background-color: #3882f6;
+    background-color: var(--blue);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -182,18 +189,18 @@ button {
 }
 
 .action-text-big {
-    color: #f9faf8;
+    color: var(--white);
     font-weight: bold;
 }
 
 .action-text-small {
-    color: #e5e7eb;
+    color: var(--white-2);
 }
 
 /* footer */
 
 .footer {
-    background-color: #1F2937;
+    background-color: var(--navy)
     padding: 2rem;
     display: flex;
     justify-content: center;
@@ -202,5 +209,6 @@ button {
 }
 
 .footer-text {
-    color: #f9faf8;
+    color: var(--white);
 }
+
